@@ -6,7 +6,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 
-public class FakeCPU{
+public class CPU{
 
     private RegisterFile registerFile;
     private Memory memory; 
@@ -18,7 +18,7 @@ public class FakeCPU{
     private Map<String, Integer> labelMap;
 
     // Constructor
-    public FakeCPU() {
+    public CPU() {
         registerFile = new RegisterFile();
         memory = new Memory();
         alu = new ALU();
