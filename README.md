@@ -1,5 +1,6 @@
 # CPU Simulator
 The CPU Simulator is a Java-based program that simulates the execution of assembly instructions on a virtual CPU. It reads assembly instructions from a text file and performs operations such as addition, subtraction, logical AND, logical OR, comparison, multiplication, division, jumping, and moving data. It utilizes general-purpose registers for storing and manipulating data during execution.
+
 Instructions Supported
 
 The CPU Simulator supports the following assembly instructions:
