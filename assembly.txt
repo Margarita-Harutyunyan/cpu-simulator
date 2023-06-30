@@ -1,0 +1,7 @@
+MOV BEN, 2
+MOV AYB, 10
+CMP AYB, BEN
+JG here
+MOV [6], AYB
+here:
+MOV [7], BEN
