@@ -37,7 +37,7 @@ To use the CPU Simulator, follow these steps:
 
 1. Compile all the Java files provided using a Java compiler. You can use the following command:
 
-javac *.java
+    javac *.java
 
 2. Prepare an assembly text file containing the instructions you want to execute. The file should follow the assembly syntax supported by the simulator. You can modify the example text file provided to suit your needs.
 
