@@ -1,8 +1,8 @@
-# FakeCPU Simulator
-The FakeCPU Simulator is a Java-based program that simulates the execution of assembly instructions on a virtual CPU. It reads assembly instructions from a text file and performs operations such as addition, subtraction, logical AND, logical OR, comparison, multiplication, division, jumping, and moving data. It utilizes general-purpose registers for storing and manipulating data during execution.
+# CPU Simulator
+The CPU Simulator is a Java-based program that simulates the execution of assembly instructions on a virtual CPU. It reads assembly instructions from a text file and performs operations such as addition, subtraction, logical AND, logical OR, comparison, multiplication, division, jumping, and moving data. It utilizes general-purpose registers for storing and manipulating data during execution.
 Instructions Supported
 
-The FakeCPU Simulator supports the following assembly instructions:
+The CPU Simulator supports the following assembly instructions:
 
     ADD: Performs addition between two operands.
     SUB: Performs subtraction between two operands.
@@ -20,7 +20,7 @@ The FakeCPU Simulator supports the following assembly instructions:
 
 General Registers
 
-The FakeCPU Simulator provides the following general registers for storing data:
+The CPU Simulator provides the following general registers for storing data:
 
     AYB
     BEN
@@ -32,7 +32,7 @@ The FakeCPU Simulator provides the following general registers for storing data:
 You can use these registers to store intermediate results, operands, or any other data required during the execution of instructions.
 Usage
 
-To use the FakeCPU Simulator, follow these steps:
+To use the CPU Simulator, follow these steps:
 
     Compile all the Java files provided using a Java compiler. You can use the following command:
 
